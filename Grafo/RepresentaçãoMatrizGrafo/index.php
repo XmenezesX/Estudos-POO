@@ -13,4 +13,11 @@ $novoGrafo->adicionaAresta(4,3);
 $novoGrafo->adicionaAresta(5,4);
 
 $novoGrafo->mostraMatriz();
+
+$novoGrafo->eVizinho(2,3);
+$novoGrafo->eVizinho(4,1);
+
+$novoGrafo->todosVizinhos(1);
+$novoGrafo->todosVizinhos(2);
+$novoGrafo->todosVizinhos(3);
 ?>
