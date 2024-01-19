@@ -2,8 +2,8 @@
 class Grafo {
     public $vertices = [];
 
-    public function adicionarVertice($id) {
-        $vertice = new Vertice($id);
+    public function adicionarVertice($nome) {
+        $vertice = new Vertice($nome);
         $this->vertices[] = $vertice;
         return $vertice;
     }
